@@ -14,7 +14,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
     jobs:
       - kitchen/dokken-single:
           suite: default
