@@ -14,8 +14,7 @@ verifier:
 platforms:
   - name: archlinux
     driver:
-      image: archlinux
-      pid_one_command: /usr/lib/systemd/systemd
+      image: archlinux:base-20210718.0.29333
 
 suites:
   - name: default
